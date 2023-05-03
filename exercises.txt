@@ -1,0 +1,15 @@
+1) Depois de verificar o seu IP através do website https://meuip.com.br/ (ou outro qualquer), caso possa reiniciar seu roteador, o que acontecerá com o seu IP?
+2) O protocolo HTTP tem vários “status code”. Qual o código que representa que o recurso é Proibido? E qual representa um Redirecionamento Temporário?
+3) Qual a tag html que representa uma Imagem? E qual representa uma tabela? 
+4) Existe uma tag html que representa cabeçalhos ou títulos, ela tem algumas variações conforme o “tamanho”. Que tag é essa e quais são suas variações?
+5) Acesse algum site que tenha interesse. Clique com o botão direito do mouse e, em seguida, na opção “Inspecionar”. Selecione alguma tag que contenha algum texto que você esteja visualizando no site. Tente clicar duas vezes em cima do texto e alterá-lo. O que acontece com o website? Você acha que esse comportamento afeta o website para outras pessoas? Por quê?
+
+
+1.R) Um novo endereço IP foi atribuído
+2.R) Família 4xx, código 403 (Forbidden)
+3.R) Tag imagem: <img>
+     A tag para tabela é <table>, porém existem outras "sub tags": <tr> <td> <th>
+4.R) Tag para cabeçalhos <head>. 
+     Tag para títulos dentro da página <h1><h2><h3><h4><h5><h6>, variando de tamanho de 1 a 6, sendo 1 o maior e 6 o menor
+5.R) Eu consigo fazer alterações em todos os elementos através do inspetor do navegador, seja um elemento JS, HTML ou CSS.
+     Os testes não afetam diretamente o site que outras pessoas estão visualizando, pois essas mudanças estão sendo feitas localmente, sem atualizar nada no servidor, é como se estivéssemos baixando os arquivos para o nosso pc e mudando as tags através do VS Code ou outro editor de texto
